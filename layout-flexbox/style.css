@@ -1,0 +1,160 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* General styles */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.marginBottom20{
+    margin-bottom: 20px;
+}
+/* Header */
+header{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(52, 52, 52);
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoContainer{
+   width: 75px;
+   height: 75px; 
+}
+.logoContainer img{
+    width: 100%;
+}
+nav a{
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+.button{
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+}
+.buttonPrimary{
+    background-color: #007FFF;
+    color: white;
+}
+.buttonSecondary{
+    background-color: white;
+}
+.headerButtonContainer{
+    display: flex;
+    gap: 10px;
+}
+/* Content */
+.mainContainer{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 155px);
+    overflow-y: scroll;
+    display: flex;
+    gap: 5px;
+    margin-top: 30px;
+    padding: 5px;
+    align-items: flex-start;
+}
+.sideContainer{
+    min-height: 50px;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 black;
+}
+main{
+    min-height: calc(100vh - 165px);
+    flex: 3;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 black;
+    padding: 10px;
+}
+.sideContainer ul{
+    width: 100%;
+    
+}
+.sideContainer ul li{
+    padding: 10px 0;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.sideContainer ul li:hover{
+    background-color: rgb(231, 231, 231);
+}
+.sideContainer ul li a{
+    color: rgb(52, 52, 52);
+}
+.box{
+    width: 100%;
+    height: 100px;
+    border: 1px solid;
+}
+.blogContainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgb(199, 199, 199);
+}
+.blogLeft{
+    flex: 1;
+    
+    
+}
+
+.blogRight{
+    flex: 1;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.blog1{
+background: url("./blog1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blog2{
+    background: url("./blog2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+.top{
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px rgb(52, 52, 52);
+    cursor: pointer;
+}
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(52, 52, 52);
+    padding-left: 50px;
+}
+footer small{
+    color: white;
+}
