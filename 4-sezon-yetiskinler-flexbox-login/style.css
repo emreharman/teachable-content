@@ -1,0 +1,53 @@
+/* reset css */
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+.mainContainer{
+    width: 100%;
+    /* viewport height */
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 50%;
+    height: 50%;
+    border: 1px solid;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.imgContainer img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.inputRowContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.inputRowContainer input{
+    width: 60%;
+    padding: 5px 10px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.buttonContainer button{
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+}
